@@ -7,5 +7,5 @@ app
     host: 'RENDER' in process.env ? '0.0.0.0' : 'localhost',
   })
   .then(() => {
-    console.log('Server running on port 3333')
+    console.log(`Server running on port: ${env.PORT}`)
   })
